@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Scheherazade New', serif;
+}
+
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+}
+
+header h4{
+    position: absolute;
+    left: 10%;
+    bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.intro{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: dodgerblue;
+    transition: 1s;
+}
+
+.page{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: dodgerblue;
+}
+
+
+.logo-header{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.logo{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.logo.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.logo.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+.dane {
+    position: relative;
+    top: 900px;
+    left: 25px;
+    font-family: 'Scheherazade New', serif;
+    font-weight:bold;
+    line-height:1.3em;
+    font-size: 32px;
+}
+
+.matthew {
+    position: relative;
+    top: 850px;
+    left: 1650px;
+    font-family: 'Scheherazade New', serif;
+    font-weight:bold;
+    line-height:1.3em;
+    font-size: 32px;
+}
+
+.go{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:10%;
+}
+
+.dropbtn {
+    background-color: goldenrod;
+    color: black;   
+    padding: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: darkgoldenrod;}
+
+  .homeHead{
+      text-align: center;
+      font-size: 85px;
+      left: 800px;
+      background-color: goldenrod;
+  }
+
+  .issuesHead{
+    text-align: center;
+    font-size: 85px;
+    left: 800px;
+    background-color: goldenrod;
+}
+
+  .visionHead{
+    text-align: center;
+    font-size: 85px;
+    left: 800px;
+    background-color: goldenrod;
+}
+
+.sourcesHead{
+    text-align: center;
+    font-size: 85px;
+    left: 800px;
+    background-color: goldenrod;
+}
+
+.border{
+    position: relative;
+    text-align: center;
+    top: 120px;
+    border-radius: 33px;
+    border: 4px solid goldenrod;
+    padding: 25px;
+    width:1900px;
+    height:800px;
+    margin: auto;
+    font-size: 48px;
+}
+.issuesBorder{
+    position: relative;
+    text-align: center;
+    top: 120px;
+    border-radius: 33px;
+    border: 4px solid goldenrod;
+    padding: 25px;
+    width:1900px;
+    height:800px;
+    margin: auto;
+    font-size: 24px;
+}
+
+.issuesBorder2{
+    position:relative;
+    text-align: center;
+    top:-450px;
+    font-size: 24px;
+}
+
+.issuesBorder3{
+    position:relative;
+    text-align: center;
+    top: -380px;
+    font-size: 24px;
+}
+
+.visionBorder{
+    position: relative;
+    top: 120px;
+    right: -100px;
+    font-size: 48px;
+}
+
+.sources{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-size: 24px;
+}
+
+.source2{
+    position: relative;
+    top: 350px;
+    left: 50px;
+    font-size: 24px;
+}
+
+.imgTest{
+    position: relative;
+    top: 350px;
+    left: 50px;
+}
